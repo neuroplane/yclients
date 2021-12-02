@@ -1,19 +1,32 @@
 _id: req_7ed56c32abd84b8d9e149e3e2094c5b6
 type: Request
 parentId: wrk_c5cfa056cddc412bacf020ab1798509d
-modified: 1638460276994
+modified: 1638460502620
 created: 1638460276994
-url: ""
+url: "{{ _.api }}/auth"
 name: auth
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"login": "aleksey@boyarkin.com",
+    	"password": "zckenm"
+    }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_d9507bd16a4146a3b4a79146f1f30d8c
+  - id: pair_4100d96dafb143e690f642465de0b77d
+    name: Accept
+    value: application/vnd.yclients.v2+json
+    description: ""
+  - id: pair_38a83b8edeaa4dc09053923b374af990
+    name: Authorization
+    value: Bearer {{ _.user_tokens.Bearer }}
+    description: ""
 authentication: {}
 metaSortKey: -1638460276994
 isPrivate: false
