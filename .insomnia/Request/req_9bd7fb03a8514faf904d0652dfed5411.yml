@@ -1,29 +1,29 @@
-_id: req_37cf07c6fcb249509dc97e64a24edf17
+_id: req_9bd7fb03a8514faf904d0652dfed5411
 type: Request
 parentId: wrk_c5cfa056cddc412bacf020ab1798509d
-modified: 1638463804319
-created: 1638461443315
-url: "{{ _.api }}/company/{{ _.companies.tagban }}/staff"
-name: /company/staff
+modified: 1638464024336
+created: 1638463888058
+url: "{{ _.api }}"
+name: TEMPLATE
 description: ""
 method: GET
 body: {}
 parameters: []
 headers:
-  - id: pair_d51c996645bf4fae805a10f6522e82ae
+  - id: pair_6ac72b58a63f4bb484e9beda5b351d8c
     name: Accept
     value: application/vnd.yclients.v2+json
     description: ""
-  - id: pair_61e90ca4dc5d4bbb9082a791bb5b721e
+  - id: pair_3ec4be15d7444d56893c6da758387a80
     name: Content-Type
     value: application/json
     description: ""
-  - id: pair_7188d7253bfc4f6d92b0eaa22605274d
+  - id: pair_cdd81d7d10524a4ab53b3068b0572cab
     name: Authorization
     value: Bearer {{ _.user_tokens.Bearer }}, User {{ _.user_tokens.aleksey }}
     description: ""
 authentication: {}
-metaSortKey: -1638460276944
+metaSortKey: -1638462606184
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
