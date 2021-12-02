@@ -1,10 +1,10 @@
 _id: req_7ed56c32abd84b8d9e149e3e2094c5b6
 type: Request
 parentId: wrk_c5cfa056cddc412bacf020ab1798509d
-modified: 1638460502620
+modified: 1638460583607
 created: 1638460276994
 url: "{{ _.api }}/auth"
-name: auth
+name: /auth
 description: ""
 method: POST
 body:
