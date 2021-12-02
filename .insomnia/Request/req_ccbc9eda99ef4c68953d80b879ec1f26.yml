@@ -1,0 +1,42 @@
+_id: req_ccbc9eda99ef4c68953d80b879ec1f26
+type: Request
+parentId: wrk_c5cfa056cddc412bacf020ab1798509d
+modified: 1638462215067
+created: 1638462149878
+url: "{{ _.api }}/company/{{ _.companies.tagban }}/clients/search"
+name: /company/company_id/clients/search
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"fields": [
+        "id",
+        "name",
+    		"phone"
+      ]
+    }
+parameters: []
+headers:
+  - id: pair_d51c996645bf4fae805a10f6522e82ae
+    name: Accept
+    value: application/vnd.yclients.v2+json
+    description: ""
+  - id: pair_61e90ca4dc5d4bbb9082a791bb5b721e
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_7188d7253bfc4f6d92b0eaa22605274d
+    name: Authorization
+    value: Bearer {{ _.user_tokens.Bearer }}, User {{ _.user_tokens.aleksey }}
+    description: ""
+authentication: {}
+metaSortKey: -1638458502804.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

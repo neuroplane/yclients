@@ -1,0 +1,34 @@
+_id: req_a078cbb1252e4df290ef9bfb39840fb4
+type: Request
+parentId: wrk_c5cfa056cddc412bacf020ab1798509d
+modified: 1638462070744
+created: 1638462028644
+url: "{{ _.api }}/timetable/seances/{{ _.companies.tagban }}/{{
+  _.specialization.puck_zone }}/{% now 'custom', 'YYYY-MM-DD' %}"
+name: /timetable/seances/company/staff/date
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_d51c996645bf4fae805a10f6522e82ae
+    name: Accept
+    value: application/vnd.yclients.v2+json
+    description: ""
+  - id: pair_61e90ca4dc5d4bbb9082a791bb5b721e
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_7188d7253bfc4f6d92b0eaa22605274d
+    name: Authorization
+    value: Bearer {{ _.user_tokens.Bearer }}, User {{ _.user_tokens.aleksey }}
+    description: ""
+authentication: {}
+metaSortKey: -1638458756253
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
