@@ -1,38 +1,30 @@
-_id: req_ccbc9eda99ef4c68953d80b879ec1f26
+_id: req_a82e736029e848139f09d06d862e92c8
 type: Request
 parentId: wrk_c5cfa056cddc412bacf020ab1798509d
-modified: 1638462873702
-created: 1638462149878
-url: "{{ _.api }}/company/{{ _.companies.tagban }}/clients/search"
-name: /company/company_id/clients/search
+modified: 1638462848068
+created: 1638462606084
+url: "{{ _.api }}/book_times/{{ _.companies.tagban }}/{{
+  _.specialization.puck_zone }}/{% now 'custom', 'YYYY-MM-DD' %}"
+name: book_times/company_id/staff_id/date
 description: ""
-method: POST
-body:
-  mimeType: application/json
-  text: |-
-    {
-    	"fields": [
-        "id",
-        "name",
-    		"phone"
-      ]
-    }
+method: GET
+body: {}
 parameters: []
 headers:
-  - id: pair_d51c996645bf4fae805a10f6522e82ae
+  - id: pair_6ac72b58a63f4bb484e9beda5b351d8c
     name: Accept
     value: application/vnd.yclients.v2+json
     description: ""
-  - id: pair_61e90ca4dc5d4bbb9082a791bb5b721e
+  - id: pair_3ec4be15d7444d56893c6da758387a80
     name: Content-Type
     value: application/json
     description: ""
-  - id: pair_7188d7253bfc4f6d92b0eaa22605274d
+  - id: pair_cdd81d7d10524a4ab53b3068b0572cab
     name: Authorization
     value: Bearer {{ _.user_tokens.Bearer }}, User {{ _.user_tokens.aleksey }}
     description: ""
 authentication: {}
-metaSortKey: -1638462606109
+metaSortKey: -1638462606084
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

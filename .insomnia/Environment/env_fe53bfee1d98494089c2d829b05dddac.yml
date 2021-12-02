@@ -1,0 +1,39 @@
+_id: env_fe53bfee1d98494089c2d829b05dddac
+type: Environment
+parentId: env_07a3c5d92f93e1a7a10ebedab6efb2c6f482b3b5
+modified: 1638462396312
+created: 1638462378187
+name: api
+data:
+  api: https://api.yclients.com/api/v1
+  companies:
+    tagban: "369185"
+    main_store: "538086"
+    футбол: "1273411"
+  specialization:
+    soccer: "1273411"
+    mass_skating: "1239158"
+    puck_zone: "1088170"
+  user_tokens:
+    Bearer: h4mfteajz6jf32k6zr47
+    aleksey: 1e8e34df7dde13e3f343d691c328d239
+dataPropertyOrder:
+  "&":
+    - api
+    - companies
+    - specialization
+    - user_tokens
+  "&~|companies":
+    - tagban
+    - main_store
+    - футбол
+  "&~|specialization":
+    - soccer
+    - mass_skating
+    - puck_zone
+  "&~|user_tokens":
+    - Bearer
+    - aleksey
+color: "#5fdd6e"
+isPrivate: false
+metaSortKey: 1638462378187
