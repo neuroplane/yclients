@@ -1,8 +1,12 @@
 _id: wrk_c5cfa056cddc412bacf020ab1798509d
 type: Workspace
 parentId: null
-modified: 1638460226980
+modified: 1638465657815
 created: 1638460226980
 name: my-spec.yaml
-description: ""
+description: |-
+  # Installed plugins
+  * `Faker`
+  * `Random date`
+  ---
 scope: design
