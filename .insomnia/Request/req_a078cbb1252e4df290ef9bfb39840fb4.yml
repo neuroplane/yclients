@@ -1,10 +1,11 @@
 _id: req_a078cbb1252e4df290ef9bfb39840fb4
 type: Request
 parentId: wrk_c5cfa056cddc412bacf020ab1798509d
-modified: 1638462070744
+modified: 1638465446992
 created: 1638462028644
 url: "{{ _.api }}/timetable/seances/{{ _.companies.tagban }}/{{
-  _.specialization.puck_zone }}/{% now 'custom', 'YYYY-MM-DD' %}"
+  _.specialization.puck_zone }}/{% randomdate 'custom', 'future', 'YYYY-MM-DD',
+  3 %}"
 name: /timetable/seances/company/staff/date
 description: ""
 method: GET
