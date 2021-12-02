@@ -1,0 +1,25 @@
+_id: req_7ed56c32abd84b8d9e149e3e2094c5b6
+type: Request
+parentId: wrk_c5cfa056cddc412bacf020ab1798509d
+modified: 1638460276994
+created: 1638460276994
+url: ""
+name: auth
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1638460276994
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
