@@ -1,0 +1,33 @@
+_id: req_37cf07c6fcb249509dc97e64a24edf17
+type: Request
+parentId: wrk_c5cfa056cddc412bacf020ab1798509d
+modified: 1638461544146
+created: 1638461443315
+url: "{{ _.api }}/company/{{ _.companies.tagban }}/staff"
+name: /company/staff
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_d51c996645bf4fae805a10f6522e82ae
+    name: Accept
+    value: application/vnd.yclients.v2+json
+    description: ""
+  - id: pair_61e90ca4dc5d4bbb9082a791bb5b721e
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_7188d7253bfc4f6d92b0eaa22605274d
+    name: Authorization
+    value: Bearer {{ _.user_tokens.Bearer }}, User {{ _.user_tokens.aleksey }}
+    description: ""
+authentication: {}
+metaSortKey: -1638460276944
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

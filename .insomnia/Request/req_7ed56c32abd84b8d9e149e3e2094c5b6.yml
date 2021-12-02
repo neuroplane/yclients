@@ -1,7 +1,7 @@
 _id: req_7ed56c32abd84b8d9e149e3e2094c5b6
 type: Request
 parentId: wrk_c5cfa056cddc412bacf020ab1798509d
-modified: 1638460583607
+modified: 1638461488167
 created: 1638460276994
 url: "{{ _.api }}/auth"
 name: /auth
@@ -19,6 +19,7 @@ headers:
   - name: Content-Type
     value: application/json
     id: pair_d9507bd16a4146a3b4a79146f1f30d8c
+    disabled: false
   - id: pair_4100d96dafb143e690f642465de0b77d
     name: Accept
     value: application/vnd.yclients.v2+json
