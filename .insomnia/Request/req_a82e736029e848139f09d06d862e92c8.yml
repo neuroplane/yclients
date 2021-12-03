@@ -1,7 +1,7 @@
 _id: req_a82e736029e848139f09d06d862e92c8
 type: Request
 parentId: wrk_c5cfa056cddc412bacf020ab1798509d
-modified: 1638462848068
+modified: 1638516576549
 created: 1638462606084
 url: "{{ _.api }}/book_times/{{ _.companies.tagban }}/{{
   _.specialization.puck_zone }}/{% now 'custom', 'YYYY-MM-DD' %}"

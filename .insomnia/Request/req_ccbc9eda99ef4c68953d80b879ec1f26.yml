@@ -1,7 +1,7 @@
 _id: req_ccbc9eda99ef4c68953d80b879ec1f26
 type: Request
 parentId: wrk_c5cfa056cddc412bacf020ab1798509d
-modified: 1638462873702
+modified: 1638516548182
 created: 1638462149878
 url: "{{ _.api }}/company/{{ _.companies.tagban }}/clients/search"
 name: /company/company_id/clients/search
@@ -11,11 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"fields": [
-        "id",
-        "name",
-    		"phone"
-      ]
+    	"fields": ["id", "name", "phone"]
     }
 parameters: []
 headers:

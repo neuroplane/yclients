@@ -1,18 +1,18 @@
-_id: req_7ed56c32abd84b8d9e149e3e2094c5b6
+_id: req_7ebf3a915978404bb9b1c3cb6c9356fb
 type: Request
 parentId: wrk_c5cfa056cddc412bacf020ab1798509d
-modified: 1638516494994
-created: 1638460276994
-url: "{{ _.api }}/auth"
-name: /auth
+modified: 1638516510981
+created: 1638510166835
+url: "{{ _.api }}/user/auth"
+name: /user/auth
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"login": "aleksey@boyarkin.com",
-    	"password": "zckenm"
+    	"phone": "79034847342",
+    	"code": "7187"
     }
 parameters: []
 headers:
@@ -29,7 +29,7 @@ headers:
     value: Bearer {{ _.user_tokens.Bearer }}
     description: ""
 authentication: {}
-metaSortKey: -1638462606134
+metaSortKey: -1638462606115.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

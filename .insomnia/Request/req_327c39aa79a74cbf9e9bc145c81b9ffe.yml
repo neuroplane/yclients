@@ -1,18 +1,18 @@
-_id: req_7ed56c32abd84b8d9e149e3e2094c5b6
+_id: req_327c39aa79a74cbf9e9bc145c81b9ffe
 type: Request
 parentId: wrk_c5cfa056cddc412bacf020ab1798509d
-modified: 1638516494994
-created: 1638460276994
-url: "{{ _.api }}/auth"
-name: /auth
+modified: 1638516498449
+created: 1638509856612
+url: "{{ _.api }}/book_code/{{ _.companies.tagban }}"
+name: /sms_code/company_id
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"login": "aleksey@boyarkin.com",
-    	"password": "zckenm"
+    	"phone": "79034847342",
+    	"fulname": "Aleksey"
     }
 parameters: []
 headers:
@@ -29,7 +29,7 @@ headers:
     value: Bearer {{ _.user_tokens.Bearer }}
     description: ""
 authentication: {}
-metaSortKey: -1638462606134
+metaSortKey: -1638462606121.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
